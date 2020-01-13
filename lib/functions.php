@@ -24,5 +24,13 @@ function getPart($name){
 }
 
 function getUserData() {
+    //$file = file_get_contents('../data/user.json', FILE_USE_INCLUDE_PATH);
+    $file = file_get_contents('../data/user.json');
+    //var_dump(json_decode($file,true));
 
+
+    return json_decode($file,true);
 }
+
+$test = getUserData();
+echo $test['name'];

@@ -1,4 +1,4 @@
-put some header here
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,8 +7,8 @@ put some header here
     <title>Title</title>
 </head>
 <body>
+put some header here
 <?php
 include 'menu.php'
 ?>
-</body>
-</html>
+
